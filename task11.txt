@@ -1,1 +1,18 @@
+// Инициализация Git
 git init
+
+// Добавление файлов в локальное хранилище
+git add .
+git commit -m "added files"
+
+// Создание новой ветки
+git branch second
+
+// Переход в новую ветку
+git checkout second
+
+// Подключение удаленного репозитория
+git remote add origin https://github.com/SeregaKote/task11.git
+
+// Выгрузка проекта
+git push -u origin master
